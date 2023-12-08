@@ -32,3 +32,20 @@ function getYearsWord(age) {
         return "лет";
     }
 }
+
+// let text = "Специализируюсь на разработке веб-сайтов с использованием языков программирования, таких как PHP и C#. Мои навыки охватывают создание плагинов и разработку ботов для платформы Discord. Кроме того, у меня есть опыт в создании REST API и Server Manager. Мое стремление к росту и развитию подразумевает постоянное расширение знаний и навыков, не ограничиваясь текущими достижениями.";
+// let elem = document.getElementById("result");
+// let delay = 50;
+
+// let print_text = function (text, elem, delay) {
+//     if(text.length > 0) {
+//         elem.innerHTML += text[0];
+//         setTimeout(
+//             function() {
+//                 print_text(text.slice(1), elem, delay); 
+//             }, delay
+//         );
+//     }
+// }
+
+// print_text(text, elem, delay);

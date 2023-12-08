@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/favicon.png" type="image/png">
 </head>
 <body>
     <header>
@@ -14,7 +15,7 @@
                 <h2>евгений задорожко.</h2>
                 <span>программист</span>
             </div>
-            <p>Специализируюсь на разработке веб-сайтов с использованием языков программирования, таких как PHP и C#. Мои навыки охватывают создание плагинов и разработку ботов для платформы Discord. Кроме того, у меня есть опыт в создании REST API и Server Manager. Мое стремление к росту и развитию подразумевает постоянное расширение знаний и навыков, не ограничиваясь текущими достижениями.</p>
+            <p id="result"></p>
 
             <svg style="cursor: pointer;" width="243" height="52" viewBox="0 0 243 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="1.5" y="1.5" width="238" height="49" rx="24.5" stroke="white" stroke-width="3"/>
@@ -86,7 +87,7 @@
                             <span class="square2" style="--square2: rgba(235, 1, 136, 0.5);"></span>
                             <span class="square1" style="--square1: rgba(222, 131, 224, 0.58);"></span>
                             <div class="content">
-                                <img src="./img/lang/С_lattice.svg" alt="c#">
+                                <img src="./img/programming_lang/С_lattice.svg" alt="c#">
                             </div>
                         </div>
             
@@ -95,7 +96,7 @@
                             <span class="square2" style="--square2: rgba(65, 96, 175, 0.60)"></span>
                             <span class="square1" style="--square1: rgba(0, 167, 160, 0.60)"></span>
                             <div class="content">
-                                <img src="./img/lang/C++.svg" alt="c++">
+                                <img src="./img/programming_lang/C++.svg" alt="c++">
                             </div>
                         </div>
                     </div>
@@ -110,7 +111,7 @@
                             <span class="square2" style="--square2: #00D7EB99"></span>
                             <span class="square1" style="--square1: #00A05299"></span>
                             <div class="content">
-                                <img src="./img/lang/js.svg" alt="js">
+                                <img src="./img/programming_lang/js.svg" alt="js">
                             </div>
                         </div>
 
@@ -119,7 +120,7 @@
                             <span class="square2" style="--square2: #62C6C299"></span>
                             <span class="square1" style="--square1: #005D9299"></span>
                             <div class="content">
-                                <img src="./img/lang/php.svg" alt="php">
+                                <img src="./img/programming_lang/php.svg" alt="php">
                             </div>
                         </div>
                     </div>
@@ -134,7 +135,7 @@
                             <span class="square2" style="--square2: #F97BBC99"></span>
                             <span class="square1" style="--square1: #FF210099"></span>
                             <div class="content">
-                                <img src="./img/lang/html5.svg" alt="html5">
+                                <img src="./img/programming_lang/html5.svg" alt="html5">
                             </div>
                         </div>
             
@@ -143,7 +144,7 @@
                             <span class="square2" style="--square2: #00D7EB99"></span>
                             <span class="square1" style="--square1: #00A05299"></span>
                             <div class="content">
-                                <img src="./img/lang/css3.svg" alt="css3">
+                                <img src="./img/programming_lang/css3.svg" alt="css3">
                             </div>
                         </div>
 
@@ -152,7 +153,7 @@
                             <span class="square2" style="--square2: #5EFF5B99"></span>
                             <span class="square1" style="--square1: #FFD60099"></span>
                             <div class="content">
-                                <img src="./img/lang/js.svg" alt="js">
+                                <img src="./img/programming_lang/js.svg" alt="js">
                             </div>
                         </div>
 
@@ -161,7 +162,7 @@
                             <span class="square2" style="--square2: #62C6C299"></span>
                             <span class="square1" style="--square1: #005D9299"></span>
                             <div class="content">
-                                <img src="./img/lang/JQuery.svg" alt="JQuery">
+                                <img src="./img/programming_lang/JQuery.svg" alt="JQuery">
                             </div>
                         </div>
 
@@ -170,7 +171,7 @@
                             <span class="square2" style="--square2: rgba(65, 96, 175, 0.60)"></span>
                             <span class="square1" style="--square1: rgba(0, 167, 160, 0.60)"></span>
                             <div class="content">
-                                <img src="./img/lang/react.svg" alt="react">
+                                <img src="./img/programming_lang/react.svg" alt="react">
                             </div>
                         </div>
 
@@ -179,7 +180,7 @@
                             <span class="square2" style="--square2: rgba(235, 1, 136, 0.50)"></span>
                             <span class="square1" style="--square1: rgba(94, 7, 110, 0.50)"></span>
                             <div class="content">
-                                <img src="./img/lang/bootstrap.svg" alt="bootstrap">
+                                <img src="./img/programming_lang/bootstrap.svg" alt="bootstrap">
                             </div>
                         </div>
                     </div>
@@ -196,7 +197,7 @@
                             <span class="square2" style="--square2: #62C6C299"></span>
                             <span class="square1" style="--square1: #005D9299"></span>
                             <div class="content">
-                                <img src="./img/lang/DotNet.svg" alt=".net">
+                                <img src="./img/programming_lang/DotNet.svg" alt=".net">
                             </div>
                         </div>
             
@@ -205,7 +206,7 @@
                             <span class="square2" style="--square2: rgba(255, 34, 0, 0.60)"></span>
                             <span class="square1" style="--square1: rgba(251, 41, 150, 0.60)"></span>
                             <div class="content">
-                                <img src="./img/lang/laravel.svg" alt="laravel">
+                                <img src="./img/programming_lang/laravel.svg" alt="laravel">
                             </div>
                         </div>
 
@@ -214,7 +215,7 @@
                             <span class="square2" style="--square2: rgba(65, 96, 175, 0.60)"></span>
                             <span class="square1" style="--square1: rgba(0, 167, 160, 0.60)"></span>
                             <div class="content">
-                                <img src="./img/lang/aspNet.svg" alt="asp.net">
+                                <img style="width: 50px; !important" src="./img/programming_lang/aspNet.svg" alt="asp.net">
                             </div>
                         </div>
                     </div>
@@ -229,7 +230,7 @@
                             <span class="square2" style="--square2: #62C6C299"></span>
                             <span class="square1" style="--square1: #005D9299"></span>
                             <div class="content">
-                                <img style="width: 60px; !important" src="./img/lang/discord.js.svg" alt="discord.js">
+                                <img style="width: 60px; !important" src="./img/programming_lang/discord.js.svg" alt="discord.js">
                             </div>
                         </div>
 
@@ -238,7 +239,7 @@
                             <span class="square2" style="--square2: #00D7EB99"></span>
                             <span class="square1" style="--square1: #00A05299"></span>
                             <div class="content">
-                                <img style="width: 50px; !important" src="./img/lang/Nginx.svg" alt="Nginx">
+                                <img style="width: 50px; !important" src="./img/programming_lang/Nginx.svg" alt="Nginx">
                             </div>
                         </div>
 
@@ -247,7 +248,7 @@
                             <span class="square2" style="--square2: rgba(255, 34, 0, 0.60)"></span>
                             <span class="square1" style="--square1: rgba(251, 41, 150, 0.60)"></span>
                             <div class="content">
-                                <img src="./img/lang/git.svg" alt="git">
+                                <img src="./img/programming_lang/git.svg" alt="git">
                             </div>
                         </div>
 
@@ -256,7 +257,7 @@
                             <span class="square2" style="--square2: #F97BBC99"></span>
                             <span class="square1" style="--square1: #FF210099"></span>
                             <div class="content">
-                                <img style="width: 60px; !important" src="./img/lang/apache2.svg" alt="apache2">
+                                <img style="width: 60px; !important" src="./img/programming_lang/apache2.svg" alt="apache2">
                             </div>
                         </div>
 
@@ -265,7 +266,7 @@
                             <span class="square2" style="--square2: rgba(65, 96, 175, 0.60)"></span>
                             <span class="square1" style="--square1: rgba(0, 167, 160, 0.60)"></span>
                             <div class="content">
-                                <img style="width: 60px; !important" src="./img/lang/restApi.svg" alt="restApi">
+                                <img style="width: 60px; !important" src="./img/programming_lang/restApi.svg" alt="restApi">
                             </div>
                         </div>
                     </div>
@@ -281,7 +282,7 @@
                             <span class="square2" style="--square2: rgba(235, 1, 136, 0.50)"></span>
                             <span class="square1" style="--square1: rgba(94, 7, 110, 0.50)"></span>
                             <div class="content">
-                                <img style="width: 60px; !important" src="./img/lang/mysql.svg" alt="mysql">
+                                <img style="width: 60px; !important" src="./img/programming_lang/mysql.svg" alt="mysql">
                             </div>
                         </div>
             
@@ -290,7 +291,7 @@
                             <span class="square2" style="--square2: #62C6C299"></span>
                             <span class="square1" style="--square1: #005D9299"></span>
                             <div class="content">
-                                <img style="width: 60px; !important" src="./img/lang/microsoftsqlserver.svg" alt="microsoftsqlserver">
+                                <img style="width: 60px; !important" src="./img/programming_lang/microsoftsqlserver.svg" alt="microsoftsqlserver">
                             </div>
                         </div>
 
@@ -303,11 +304,80 @@
         
     </div>
 
+    <div class="container">
+        <h2 title="Works">Мои Работы</h2>
+        <div class="body-works-block">
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li id="scripts">Скрипты</li>
+                        <li class="dots">...</li>
+                        <li id="sites" class="active">Сайты</li>
+                        <li class="dots">...</li>
+                        <li id="design">Дизайны</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="cards-works">
+                <div class="card-work">
+                    <img src="./img/works/LaslesVPN.png" alt="LaslesVPN">
+                </div>
+
+                <div class="card-work">
+                    <img src="./img/works/Painkillers.png" alt="Painkillers">
+                </div>
+
+                <div class="card-work">
+                    <img src="./img/works/Waxom.png" alt="Waxom">
+                </div>
+
+                <div class="card-work">
+                    <img src="./img/works/Mabex.png" alt="Mabex Trade">
+                </div>
+
+                <div class="card-work">
+                    <img src="./img/works/Rada.png" alt="Rada">
+                </div>
+
+                <div class="card-work">
+                    <img src="./img/works/Mystery_Hype.png" alt="Mystery Hype">
+                </div>
+            </div>
+
+            <div class="pagination">
+                <nav>
+                    <ul>
+                        <li>1</li>
+                        <li class="active">2</li>
+                        <li>3</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <div>
         </div>
         <script src="./js/main.js"></script>
+        <script src="./js/typeit.min.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const instance = new TypeIt('#result', {
+                    strings: "Специализируюсь на разработке веб-сайтов с использованием языков программирования, таких как PHP и C#.",
+                    speed: 35
+                }).pause(3000)
+                .type(" Мои навыки охватывают создание плагинов и разработку ботов для платформы Discord. Кроме того, у меня есть опыт в создании REST API и Server Manager.")
+                .pause(3000)
+                .type(" Мое стремление к росту и развитию подразумевает постоянное расширение знаний и навыков, не ограничиваясь текущими достижениями.")
+                .go();
+
+                setTimeout(() => {
+                    instance.destroy(true);
+                }, 27000);
+            });
+        </script>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     </footer>
 </body>

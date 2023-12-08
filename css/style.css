@@ -79,7 +79,7 @@ header .right-block .top-block span{
 
 header .right-block p{
     font-family: "Inter", sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -129,6 +129,7 @@ header .right-block svg{
     text-transform: uppercase;
     color: #fff;
     margin: 20px 0 51px 0;
+    user-select: none;
 }
 
 .container h2::before{
@@ -277,10 +278,12 @@ header .right-block svg{
     border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
     }
     34% {
-      border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+      /* border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%; */
+      border-radius: 80% 30% 50% 50% / 30% 30% 70% 70%;
     }
     67% {
-      border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+      /* border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%; */
+      border-radius: 70% 60% 60% 50% / 100% 100% 60% 60%;
     }
 }
 
@@ -348,4 +351,105 @@ header .right-block svg{
     font-size: 16px;
     font-weight: 700 !important;
     top: -10px;
+}
+
+.body-works-block{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+
+.menu nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 9px;
+    padding: 0;
+}
+
+.menu nav ul .dots{
+    color: #fff;
+    font-size: 18px;
+    user-select: none;
+    cursor: default;
+}
+
+.menu ul li{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: color 0.5s ease-in-out;
+}
+
+.menu ul .active{
+    color: #FFF !important;
+    text-shadow: 0px 0px 2px #FFF;
+}
+
+.menu ul li:hover{
+    color: #FFF;
+}
+
+.cards-works{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 47px;
+    column-gap: 48px;
+}
+
+.cards-works .card-work{
+    border: 5px solid #FFFFFF;
+    /* filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.4)); */
+    box-shadow: rgba(0, 0, 0, 0.4) 0 0px 20px 7px;
+    position: relative;
+    border-radius: 20px;
+    width: 335.19px;
+    height: 245.06px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.card-work img{  
+    width: 336.19px;
+    height: 246.06px;
+    position: absolute;
+    right: 0px;
+}
+
+.pagination ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 22px;
+    list-style: none;
+}
+
+.pagination ul li{
+    transition: color 0.5s ease-in-out;
+    color: rgba(255, 255, 255, 0.20);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.pagination ul li:hover{
+    color: #FFF;
+}
+
+.pagination ul .active{
+    color: #fff;
+    text-shadow: 0px 0px 2px #FFF;
 }
