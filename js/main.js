@@ -108,4 +108,11 @@ document.addEventListener("DOMContentLoaded", function () {
             })
         });
 
+    document.getElementById("close_development")
+    .addEventListener("click", (e) => {
+        e.preventDefault();
+        var block_dev = document.getElementById("development");
+        block_dev.remove();
+    });
+
 });
